@@ -7,4 +7,4 @@ window._config = {
     api: {
         invokeUrl: '',
     }
-}
+};
