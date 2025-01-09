@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const CognitoIdentityServiceProvider = new AWS.CognitoIdentityServiceProvider();
 
 async function signIn(username, password) {
-    const clientId = "1b9pva5go6tivi20f27suaabe3";
-    const clientSecret = "1c6omp8kvs07af354ub42btmeb69p3ejiqsbb5vtprou6rd7f4a8";
+    const clientId = "6i2oc136ttnduoi7uah12uda86";
+    const clientSecret = "gp07tb97d9nr9mcns3b7v4k4secib02q3n7tei2irmctueuoeb1";
     const secretHash = generateSecretHash(username, clientId, clientSecret);
 
     const params = {
