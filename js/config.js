@@ -5,6 +5,6 @@ window._config = {
         region: 'us-west-2',
     },
     api: {
-        invokeUrl: '',
+        invokeUrl: 'arn:aws:apigateway:us-west-2::/apis/m7vgb5ulg0/routes/nacs3ef',
     }
 };
