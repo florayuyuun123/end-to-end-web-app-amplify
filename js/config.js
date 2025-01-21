@@ -5,6 +5,6 @@ window._config = {
         region: 'us-west-2',
     },
     api: {
-        invokeUrl: '',
+        invokeUrl: 'https://ppdsuzmcji.execute-api.us-west-2.amazonaws.com/Dev',
     }
 };
